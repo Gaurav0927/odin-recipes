@@ -5,7 +5,10 @@
 }
 
 body{
-    background-color: azure;
+    background-image: url('../images/back1pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1{
