@@ -1,3 +1,17 @@
 body{
     background-color: bisque;
 }
+
+h1{
+    font-size: 50px;
+    color: red;
+    font-weight: 900;
+    text-align: center;
+}
+
+.pizzaHeading{
+    font-size: 50px;
+    color: red;
+    font-weight: 900;
+    text-align: center;
+}
