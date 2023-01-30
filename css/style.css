@@ -1,17 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: bisque;
+    background-color: antiquewhite;
+}
+
+img{
+    width: 550px;
+    height: auto;
 }
 
 h1{
-    font-size: 50px;
-    color: red;
-    font-weight: 900;
     text-align: center;
+    color: red;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 34px auto;
+    
 }
 
-.pizzaHeading{
-    font-size: 50px;
-    color: red;
-    font-weight: 900;
-    text-align: center;
+
+p{
+    font-size: 22px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 24px 0;
+    padding: 0 16px;
+
 }
+
+h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 16px;
+    background-color: rgb(10, 231, 157);
+    padding: 4px 0;
+    margin: 16px 0;
+
+}
+
+.main-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 250px auto;
+}
+
+.main-links ul{
+    font-size: 36px;
+    cursor: pointer;
+    list-style: none;
+    
+}
+.main-links ul li{
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.main-links ul li a{
+    text-decoration: none;
+}
+
+.container-pic{
+    text-align: center;
+    margin: 24px auto;
+}
+
+.recipe-ingridents,.recipe-steps{
+    font-size: 22px;
+    line-height: 40px;
+    margin: 20px auto;
+    padding: 0 40px;
+
+}
+
+
+
+
+
+
+
+
